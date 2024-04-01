@@ -19,7 +19,7 @@ header{
     margin: 0 16px;
 }
 
-{
+*{
     margin: 0 16px;
     padding: 24px 0;
 }
@@ -29,27 +29,42 @@ header{
 }
 
 .escola{
-    background-image: linear-gradient();
+    background-image: linear-gradient(#383d58, #00c0eb);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.escola-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
 }
 
+body{
+    font-family: 'Poppins',sans-serif;
+}
 
+.estudante-imagem{
+    width: 120%;
+}
 
+.estudante-icone{
+    width: 24px;
+}
 
+.estudante-div{
+    text-align: center;
+}
 
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-.cabecalho
-    background-color: #383D58;
-    color: white;
-    display:flex;
-    justify-content:space-around;
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
 }
